@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f9ff;
+    color: #333;
+  }
+  
+  .portfolio {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    color: #007acc;
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
+  
+  ul {
+    padding-left: 20px;
+    list-style-type: square;
+  }
+  
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Button Style */
+  #toggle-mode {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007acc;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #toggle-mode:hover {
+    background-color: #005f99;
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+  }
+  
+  .dark-mode a {
+    color: #66ccff;
+  }
+  
+  .dark-mode h1,
+  .dark-mode h2 {
+    color: #66ccff;
+  }
+  
+  .dark-mode .portfolio {
+    background-color: #2c2c2c;
+  }
+  
